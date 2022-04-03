@@ -16,13 +16,13 @@ and visit
 ```bash
 [{"ID":1,"Year":2022,"Genre":"臨床生理学","Question":"問い1","Answer":"答え1","Commentary":"コメント1"},{"ID":2,"Year":2022,"Genre":"臨床血液学","Question":"問い2","Answer":"答え2","Commentary":"コメント2"}]
 ```
-- http://localhost:8080/1
+- http://localhost:8080/id/1
 ```bash
 [{"ID":1,"Year":2022,"Genre":"臨床生理学","Question":"問い1","Answer":"答え1","Commentary":"コメント1"}]
 ```
-- http://localhost:8080/2
+- http://localhost:8080/year/2
 ```bash
-[{"ID":2,"Year":2022,"Genre":"臨床血液学","Question":"問い2","Answer":"答え2","Commentary":"コメント2"}]
+[{"ID":1,"Year":2022,"Genre":"臨床生理学","Question":"問い1","Answer":"答え1","Commentary":"コメント1"},{"ID":2,"Year":2022,"Genre":"臨床血液学","Question":"問い2","Answer":"答え2","Commentary":"コメント2"}]
 ```
 
 # Directory Structure
